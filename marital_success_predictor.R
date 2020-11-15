@@ -5,8 +5,8 @@ library(ggplot2)
 library(rattle)
 library(RColorBrewer)
 
-training <- read.csv("Marriage_training.csv") # training data for rpart
-testing <- read.csv("Marriage_testing_students1.csv") # predict from this data
+training <- read.csv("./assets/Marriage_training.csv") # training data for rpart
+testing <- read.csv("./assets/Marriage_testing_students1.csv") # predict from this data
 
 #randomize dataset
 set.seed(9850)
